@@ -23,7 +23,7 @@ const WeatherApp = () => {
           <div className="temp">28°</div>
         </div>
         <div className="weather-date">
-          <p>Saturday 10 August</p>
+          <p>Sat 10 August</p>
         </div>
         <div className="weather-data">
           <div className="humidity">
