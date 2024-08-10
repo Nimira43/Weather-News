@@ -1,7 +1,10 @@
+import WeatherApp from "./Components/WeatherApp"
+import './Components/WeatherApp.css'
+
 const App = () => {
   return (
     <div>
-      <h1>Weather News</h1>
+      <WeatherApp />
     </div>
   )
 }
