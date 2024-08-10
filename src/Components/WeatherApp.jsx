@@ -20,7 +20,7 @@ const WeatherApp = () => {
         <div className="weather">
           <img src={sunny} alt="sunny" />
           <div className="weather-type">Clear</div>
-          <div className="temp">28°</div>
+          <div className="temp">28</div>
         </div>
         <div className="weather-date">
           <p>Sat 10 August</p>

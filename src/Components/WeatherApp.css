@@ -14,7 +14,7 @@
 .weather-app {
   width: 35rem;
   height: 65rem;
-  background-color: #63c1ef;
+  background-color: #fff;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
 
 .search-top i {
   font-size: 2rem;
-  color: #333;
+  color: #2366ed;
 }
 
 .search-top div {
@@ -60,7 +60,7 @@
   outline: none;
   padding: 1rem 3rem 1rem 1rem;
   font-size: 1.6rem;
-  color: #333;
+  color: #2366ed;
 }
 
 .search-bar input::placeholder {
@@ -75,7 +75,7 @@
   transform: translateY(-50%);
   right: 1.5rem;
   font-size: 1.5rem;
-  color: #333;
+  color: #2366ed;
   cursor: pointer;
 }
 
@@ -94,12 +94,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 9rem;
-  background-image: linear-gradient(
-    to right, 
-    #111,
-    #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2366ed;
   text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
@@ -126,8 +121,17 @@
   align-items: center;
   row-gap: 1.5rem;
   background-color: #2366ed;
-  color: #fff;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem;  
+}
+
+.data-name {
+  color: #fff;
   font-size: 1.6rem;
+}
+
+.weather-data i {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: -0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
 }
