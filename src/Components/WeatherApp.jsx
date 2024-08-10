@@ -4,6 +4,9 @@ import rainy from '../assets/images/rainy.png'
 import snowy from '../assets/images/snowy.png'
 
 const WeatherApp = () => {
+
+ 
+
   return (
     <div className='container'>
       <div className="weather-app">
